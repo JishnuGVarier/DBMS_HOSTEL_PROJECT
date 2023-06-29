@@ -50,6 +50,18 @@ $conn->close();
   #errdiv{
     text-align: center;
   }
+    .home{
+    background-color: #808080;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    students: inline-block;
+    font-size: 12px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
 </style>
 <body>
   <div class="bg-img">
@@ -65,6 +77,7 @@ $conn->close();
       
     </h4>
     <div id="errdiv"><?php echo isset($errorMessage) ? $errorMessage : ""; ?></div>
+    <div><a href="https://localhost/hostelapp/homepage.html" class="home">HOME</a></div>
     </form>
   </div>
 </body>
