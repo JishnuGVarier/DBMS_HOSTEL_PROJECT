@@ -17,6 +17,30 @@
         p {
             margin-bottom: 10px;
         }
+        .back-button {
+            background-color: #808080;
+            color: white;
+            border: none;
+            padding: 6px 10px;
+            text-align: center;
+            text-decoration: none;
+            students: inline-block;
+            font-size: 12px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        .logout-button{
+            background-color: #808080;
+            color: white;
+            border: none;
+            padding: 6px 10px;
+            text-align: center;
+            text-decoration: none;
+            students: inline-block;
+            font-size: 12px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -69,5 +93,7 @@
     // Close the database connection
     $conn->close();
     ?>
+    <a href="https://localhost/hostelapp/displaystudents.php" class="back-button">Back</a>
+    <a href="https://localhost/hostelapp/login.php" class="logout-button">Log out</a>
 </body>
 </html>
